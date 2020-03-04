@@ -40,8 +40,8 @@ eureka:
 info:     #springboot的 actuator监控信息
   app.name: momo-springcloud
   company.name: www.momo.com
-  build.artifactId: @project.artifactId@
-  build.version: @project.version@
+  build.artifactId: \@project.artifactId\@
+  build.version: \@project.version\@
 
 ---
 
@@ -82,5 +82,5 @@ eureka:
 info:     #springboot的 actuator监控信息
   app.name: momo-springcloud
   company.name: www.momo.com
-  build.artifactId: @project.artifactId@
-  build.version: @project.version@
+  build.artifactId: \@project.artifactId\@
+  build.version: \@project.version\@
